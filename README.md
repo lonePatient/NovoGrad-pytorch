@@ -34,7 +34,7 @@ optimizer = NovoGrad(model.parameters(), lr=0.01,betas=(0.95, 0.98),weight_decay
 
 ## Example
 
-To produce the result,we use CIFAR-10 dataset for ResNet18.
+To produce the result,we use CIFAR-10 dataset for alexnet.
 
 ```python
 # use adam
