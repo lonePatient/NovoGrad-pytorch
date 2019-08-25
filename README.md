@@ -6,7 +6,7 @@ This repository contains a PyTorch implementation of the NovoGrad Optimizer from
 
 by Boris Ginsburg, Patrice Castonguay......
 
-## summarize
+## Summarize
 
 NovoGrad is a first-order SGD method with gradients normalized per layer. Borrowingfrom ND-Adam, NovoGrad uses the 2nd moment  for normalization and decouples weight decayfrom stochastic gradient for regularization as in AdamW.  NovoGrad has half the memoryconsumption compared to Adam (similar to AdaFactor, but with a simpler moment computation).Unlike AdaFactor, NovoGrad does not require learning rate warmup.
 
